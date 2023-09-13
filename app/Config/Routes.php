@@ -8,6 +8,4 @@ use App\Controllers\Home;
  */
 
 $routes->get('/', 'Home::index');
-
-
-$routes->get('/profile/(:any)/(:any)/(:any)',[Home::class, 'profile']);
+$routes->get('/profile/(:any)/(:any)/(:any)', 'Home::profile/$1/$2/$3');
