@@ -20,7 +20,6 @@
             padding: 20px;
             text-align: center;
         }
-
         .img {
     background-image: url(/profile/IMG/ine.jpg);
     filter: brightness(0.8);
