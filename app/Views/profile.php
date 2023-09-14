@@ -20,25 +20,12 @@
             padding: 20px;
             text-align: center;
         }
-        .img {
-    background-image: url(/profile/IMG/ine.jpg);
-    filter: brightness(0.8);
-    background-color: #454846;
-    background-size: cover;
-    border-radius: 100px;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    text-align: center;
-}
 
         .profile-picture {
-            background-image: url(/profile/IMG/ine.jpg);
             width: 150px;
             height: 150px;
             background-color: #ddd; /* Warna latar belakang foto profil */
             border-radius: 50%; /* Untuk membuatnya menjadi lingkaran */
-            background-size: cover;
             margin: 0 auto;
             margin-bottom: 20px;
             line-height: 150px;
@@ -61,7 +48,7 @@
 <body>
     <div class="profile-card">
         <div class="profile-picture">
-            <i class="fas fa-user"></i> <!-- Gunakan ikon profil Font Awesome di sini -->
+            <i class="fas fa-user"></i>
         </div>
         <div class="profile-info">
             <span>Nama:</span> <?= $nama ?>
